@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  spooltrack-prod:
+    build:
+      context: .
+      target: production
+      dockerfile: Dockerfile
+    container_name: spooltrack-prod
+    ports:
+      - "3000:3000"
+    volumes:
+      # Only mount data directory for persistence
+      - ./data:/app/data
+      - ./logs:/app/logs
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - DATABASE_PATH=/app/data/spooltrack.db
+      - LOG_LEVEL=info
+    env_file:
+      - .env
+    restart: always
+    networks:
+      - spooltrack-network
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 512M
+        reservations:
+          cpus: '0.5'
+          memory: 256M
+
+networks:
+  spooltrack-network:
+    driver: bridge

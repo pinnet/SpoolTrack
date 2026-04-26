@@ -1,0 +1,48 @@
+# Firmware build files
+firmware/.pio/
+firmware/.vscode/
+firmware/config.h
+firmware/*.hex
+firmware/*.bin
+firmware/*.elf
+firmware/*.map
+
+# PlatformIO
+.pio
+.vscode/.browse.c_cpp.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch
+
+# KiCad temporary files
+PCB/*.bak
+PCB/*.kicad_pcb-bak
+PCB/*.kicad_sch-bak
+PCB/*-backups/
+PCB/fp-info-cache
+PCB/*.log
+PCB/*.zip
+PCB/*.pdf
+PCB/_autosave-*
+PCB/*.bck
+PCB/*.dcm
+
+# 3D printing
+3MF/*.stl.lock
+3MF/*.gcode
+3MF/.DS_Store
+3MF/Thumbs.db
+
+# Documentation
+documentation/*.tmp
+documentation/*.backup
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*~

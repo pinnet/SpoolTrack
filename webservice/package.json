@@ -1,0 +1,52 @@
+{
+  "name": "spooltrack-webservice",
+  "version": "1.0.0",
+  "description": "Spool Tracker Web Service - Filament inventory management system",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "docker:dev": "docker-compose -f docker-compose.dev.yml up",
+    "docker:prod": "docker-compose -f docker-compose.prod.yml up -d",
+    "docker:build": "docker build -t spooltrack-webservice .",
+    "migrate": "node src/database/migrate.js",
+    "seed": "node src/database/seed.js",
+    "test": "jest",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint src/**/*.js --fix"
+  },
+  "keywords": [
+    "3d-printing",
+    "filament",
+    "nfc",
+    "inventory",
+    "esp32"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "morgan": "^1.10.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "sqlite3": "^5.1.6",
+    "better-sqlite3": "^9.2.2",
+    "joi": "^17.11.0",
+    "compression": "^1.7.4",
+    "express-validator": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}

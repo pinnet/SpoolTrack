@@ -1,0 +1,29 @@
+# SpoolTrack Klipper Plugin Configuration Example
+# Add this to your printer.cfg file
+
+[spooltrack]
+# Web service URL (required)
+server_url: http://192.168.1.100:3000/api
+
+# API key for authentication (optional but recommended)
+api_key: your-api-key-here
+
+# Update interval in seconds (default: 60)
+update_interval: 60
+
+# Filament diameter in mm (default: 1.75)
+filament_diameter: 1.75
+
+# Default spool UUID (optional - can be set via G-code)
+# This should be the UUID from your SpoolTrack database
+default_spool_uuid: 00000000-0000-0000-0000-000000000000
+
+# Example usage in your G-code:
+# Start G-code - Set the spool UUID for the current print
+# SET_SPOOL_UUID UUID=12345678-90ab-cdef-1234-567890abcdef
+
+# To check status during a print:
+# SPOOLTRACK_STATUS
+
+# To force immediate sync:
+# SPOOLTRACK_SYNC
