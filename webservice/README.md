@@ -182,4 +182,6 @@ docker-compose -f docker-compose.dev.yml build --no-cache
 
 ## License
 
-MIT
+AGPL-3.0-or-later
+
+See [../LICENSE](../LICENSE) for full terms.

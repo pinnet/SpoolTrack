@@ -1,5 +1,6 @@
 /*
  * SpoolTrack ESP32 Firmware
+ * SPDX-License-Identifier: GPL-3.0-or-later
  * 
  * NFC-based filament spool tracking system
  * 

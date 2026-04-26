@@ -334,7 +334,7 @@ Found a bug or want to add a feature? Please submit issues and PRs to the main S
 
 ## License
 
-MIT License - See parent repository for details
+GPL-3.0-or-later - See [../LICENSE](../LICENSE) for details.
 
 ## Support
 

@@ -282,11 +282,13 @@ This is a development project. If manufacturing commercially:
 
 ## License
 
-Hardware designs are licensed under CERN-OHL-P v2.
+Hardware designs (PCB and 3D models) are licensed under CERN-OHL-P-2.0.
 
-Firmware is licensed under MIT License.
+Firmware is licensed under GPL-3.0-or-later.
 
-See individual folders for specific license details.
+Documentation is licensed under CC BY-SA 4.0.
+
+See the license files in this folder and subfolders for details.
 
 ## Acknowledgments
 

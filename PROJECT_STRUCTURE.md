@@ -8,7 +8,7 @@ Complete overview of the SpoolTrack repository organization.
 SpoolTrack/
 ├── README.md                          # Main project documentation
 ├── QUICKSTART.md                      # 15-minute setup guide
-├── LICENSE                            # MIT License
+├── LICENSE                            # AGPL-3.0-or-later (root/webservice)
 ├── .gitignore                         # Root gitignore
 │
 ├── webservice/                        # Web Service & API
@@ -217,7 +217,7 @@ cd hardware/3MF
 
 ### Global
 - `.gitignore` - Root ignore patterns
-- `LICENSE` - MIT license
+- `LICENSE` - AGPL-3.0-or-later for root/webservice
 
 ### Web Service
 - `.env` - Environment variables (secret, gitignored)
@@ -417,7 +417,7 @@ See `CONTRIBUTING.md` for:
 
 ## License
 
-- **Software:** MIT License
+- **Software:** AGPL-3.0-or-later (root/webservice), GPL-3.0-or-later (plugins/firmware)
 - **Hardware:** CERN-OHL-P v2
 - **Documentation:** CC BY-SA 4.0
 

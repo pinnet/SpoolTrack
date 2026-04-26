@@ -1,0 +1,21 @@
+CERN Open Hardware Licence Version 2 - Permissive (CERN-OHL-P-2.0)
+
+Copyright (C) 2026 Danny Arnold and contributors
+
+This source describes Open Hardware and is licensed under the CERN-OHL-P v2.
+
+You may redistribute and modify this source and make products using it under
+the terms of the CERN-OHL-P v2 (https://ohwr.org/cern_ohl_p_v2.txt).
+
+This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY,
+INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A
+PARTICULAR PURPOSE. Please see the CERN-OHL-P v2 for applicable conditions.
+
+Source location: https://github.com/yourusername/SpoolTrack
+
+As per CERN-OHL-P v2 section 4, should You produce hardware based on this
+source, You must where practicable maintain the Source Location visible on
+the external case of the hardware or other products you make using this
+source.
+
+SPDX-License-Identifier: CERN-OHL-P-2.0

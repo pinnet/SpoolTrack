@@ -228,4 +228,4 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md) for guidelines.
 
 ## License
 
-All plugins are licensed under the MIT License. See [LICENSE](../LICENSE) for details.
+All plugins are licensed under GPL-3.0-or-later. See [LICENSE](LICENSE) for details.

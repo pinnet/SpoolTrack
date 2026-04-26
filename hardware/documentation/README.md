@@ -350,9 +350,7 @@ Found an issue or have an improvement?
 
 ## License
 
-Hardware documentation licensed under CERN-OHL-P v2.
-
-Documentation content licensed under CC BY-SA 4.0.
+Documentation content is licensed under CC BY-SA 4.0.
 
 ---
 

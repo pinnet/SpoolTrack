@@ -378,7 +378,7 @@ Follow Arduino style guide:
 
 ## License
 
-MIT License - See LICENSE file for details
+GPL-3.0-or-later - See [LICENSE](LICENSE) for details.
 
 ## Support
 

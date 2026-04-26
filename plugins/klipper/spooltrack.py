@@ -1,8 +1,9 @@
 # SpoolTrack Klipper Plugin
 # Tracks filament usage and reports to SpoolTrack web service
 # Copyright (C) 2026 SpoolTrack Contributors
+# SPDX-License-Identifier: GPL-3.0-or-later
 #
-# This file may be distributed under the terms of the MIT license.
+# This file may be distributed under the terms of the GNU GPL v3 or later.
 
 import logging
 import json

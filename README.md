@@ -7,7 +7,7 @@
 Track your filament spools with NFC technology, monitor usage in real-time, and never run out mid-print again.
 
 [![OpenTag3D Compatible](https://img.shields.io/badge/OpenTag3D-Compatible-blue)](https://github.com/HWHardsoft/OpenTag3D)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 </div>
@@ -441,7 +441,14 @@ git push origin feature/amazing-feature
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project uses a multi-license model:
+
+- Software in the root and `webservice/`: AGPL-3.0-or-later
+- Software in `plugins/` and `hardware/firmware/`: GPL-3.0-or-later
+- Hardware design in `hardware/PCB/` and `hardware/3MF/`: CERN-OHL-P-2.0
+- Documentation in `hardware/documentation/`: CC BY-SA 4.0
+
+See license files in each folder for details.
 
 ---
 
